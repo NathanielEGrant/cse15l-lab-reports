@@ -7,4 +7,6 @@
 
 ## Remotely Connecting
 * To start off vist [here](https://sdacs.ucsd.edu/~icc/index.php) and submit your UCSD login info into the account lookup fields, making sure the first letter of your ID is lowercased.
-* There will be button under the section Additional Accounts, which will contain your 15L username. Copy this and click the button. ![Image](15Laccount.png)
+* There will be button under the section Additional Accounts, which will contain your 15L username. Copy this and click the button. 
+![Image](15Laccount.png)
+*  
