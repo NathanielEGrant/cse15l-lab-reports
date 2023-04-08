@@ -16,7 +16,7 @@
 * Once in, you should get a message somewhat like this
 ![Image](remoteconnect.png)
 ## Trying Commands
-* To test out if everything is running right, in the terminal you can start with the command *pwd*, which should print out /home/linux/ieng6/*YourClass*/*YourUsername*
+* To test out if everything is running right, in the terminal you can start with the command *pwd*, which should print out which directory you are working under.
 * If this is correct, you can try out a multitude of other commands, such as cd, cd ~, ls, or anything thing else that you know. 
 * For example, we can try the *mkdir* command, which will create a new directory, or folder, you can navigate. Here is an example of someone creating a *tester1* folder and navigating around it. 
 ![Image](mkdircommandexample.png)
