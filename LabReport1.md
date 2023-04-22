@@ -15,10 +15,11 @@
 * Type in the password you set up earlier, and remember that when typing the password in it will not show anything being typed, this is just an extra security measure.
 * Once in, you should get a message somewhat like this
 ![Image](remoteconnect.png)
+
 ## Trying Commands
 * To test out if everything is running right, in the terminal you can start with the command ```pwd```, which should print out which directory you are working under.
 * If this is correct, you can try out a multitude of other commands, such as ```cd```, ```cd ~```, ```ls```, or anything thing else that you know. 
-[Image](15lLab1resubmissionSC.png)
+![Image](15lLab1resubmissionSC.png)
 * This line of code here for uses ```ls``` to list the names of files and directories within the directory I am in. We can see the directory I am in using pwd, which shows that my path is /home/linux/ieng6/cs15lsp23/cs15lsp23cd, and my directory is cs15lsp23cd. We then use ```cd tester1``` to change directory to tester1, then we use ```cd ~``` to go back to my home directory, which we use ```pwd``` to figure out that my home is cs15lsp23cd.
 * In another example, we can try the ```pwd``` command, which prints out that I am in the directory *tester1*, and then the ```mkdir``` command, which will create a new directory, or folder, you can navigate. Here is an example of someone creating a *tester1* folder and navigating around it. 
 ![Image](mkdircommandexample.png)
