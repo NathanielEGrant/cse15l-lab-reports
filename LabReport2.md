@@ -4,6 +4,7 @@
 
 ## Part 2
 
+### A failure inducing input
 ```
  @Test
  public void testReversed() {
@@ -13,6 +14,8 @@
   }
 ```
 ![Image](labReport2pic2.png)
+
+### A non-failing input
 ```
 @Test
   public void testReversed() {
