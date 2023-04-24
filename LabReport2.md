@@ -6,7 +6,7 @@
 ![Image](labReport2pic6.png)
 
 ![Image](labReport2pic4.png)
-Firstly, the url path is taken in as the ```URI url``. Then` the if statement is activated as the url contains the ```/add-message```, which then activates the rest of the statements under it. The parameters array gets the query after the ```=```, which in this case is ```This is a test```. And because the query is s, the query statement is added to ```newString```. This is then added to stringDisplay, along with a newline character, ```\n```.
+Firstly, the url path is taken in as the ```URI url```. Then the if statement is activated as the url contains the ```/add-message```, which then activates the rest of the statements under it. The parameters array gets the query after the ```=```, which in this case is ```This is a test```. And because the query is s, the query statement is added to ```newString```. This is then added to stringDisplay, along with a newline character, ```\n```.
 
 ![Image](labReport2pic5.png)
 Again in this image, the url path is taken in as the ```URI url```. Then the if statement is activated as the url contains the ```/add-message```, which then activates the rest of the statements under it. The parameters array gets the query after the ```=```, which in this case is ```String3```. And because the query is s, the query statement is added to ```newString```. This is then added to stringDisplay, along with a newline character, ```\n```. As the website was already run a couple times, stringDisplay also contains ```This is a test``` and ```Batman``` along with their respective newline characters.
