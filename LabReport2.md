@@ -12,7 +12,7 @@
    assertArrayEquals(new int[]{3,2,1}, ArrayExamples.reversed(input1));
   }
 ```
-![Image](labReport2pic2)
+![Image](labReport2pic2.png)
 ```
 @Test
   public void testReversed() {
@@ -21,4 +21,4 @@
     assertArrayEquals(new int[]{0}, ArrayExamples.reversed(input1));
   }
 ```
-![Image](labReport2pic1)
+![Image](labReport2pic1.png)
