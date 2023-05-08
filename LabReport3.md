@@ -42,3 +42,9 @@ biomed/gb-2002-3-2-research0008.txt:        tetraploid frog
 ```
 
 One of the uses this variation could have would be the ability to search huge file directories for specific information. I chose to look through all the biomed files for the phrase ```frog```, and from here any researchers interested in frog specific testing can look into each of these files.
+
+
+### Grep -i variation
+
+ChatGPT's second variation was ```grep -i```, which described that it was a case insensitive variation the original ```grep``` command. 
+
