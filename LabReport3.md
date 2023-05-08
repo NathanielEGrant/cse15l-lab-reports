@@ -3,9 +3,10 @@
 ## Source
 
 ![Image](grepVariations.png)
+![Image](grepVariations3.png)
 The main and only source that I used to dive more in depth with the ```grep``` command was ChatGPT. 
 
-### Grep -r variation
+### grep -r variation
 Chatgpt had given me the ```grep -r``` variation, which described that this allowed me to search through file directories and find all the specified character patterns within that grouping of files.
 
 ```
@@ -44,7 +45,7 @@ biomed/gb-2002-3-2-research0008.txt:        tetraploid frog
 One of the uses this variation could have would be the ability to search huge file directories for specific information. I chose to look through all the biomed files for the phrase ```frog```, and from here any researchers interested in frog specific testing can look into each of these files.
 
 
-### Grep -i variation
+### grep -i variation
 
 ChatGPT's second variation was ```grep -i```, which described that it was a case insensitive variation the original ```grep``` command.
 ![Image](grepVariations2.png)
@@ -90,5 +91,41 @@ biomed/gb-2003-4-2-r14.txt:          acl are problematic at the present
 
 My second use of the ```grep -i``` variation was based upon the idea of non-uniformal abbreviations. This search brought up a few different variations of the abbreviation acl, which showed both different meanings of the grouping acl and the idea that sometimes these abbreviations are not uniform among the scientific community.
 
-### Grep -l variation
+### grep -l variation
+The 3rd variation I am using that ChatGPT referred to me is ```grep -l```. The chatbot says that this search returns only the name of files that contains the specified variations.
+
+```
+$ grep -li " frog " *
+1471-2091-3-31.txt
+1471-213X-1-13.txt
+1471-213X-1-6.txt
+1471-213X-3-2.txt
+1471-2164-2-8.txt
+1471-2202-1-1.txt
+1471-2202-3-4.txt
+gb-2002-3-2-research0008.txt
+```
+
+This use of ```grep -l``` returns to us all the files that contain the word "frog"(case-insensitive). Again, this could be a quick way to get the files that do mention frog research, and from there we can grep specific keywords such as specific organs or proteins that may be involved with these frogs.
+
+```
+$ grep -li cycloheximide *
+1471-2091-3-14.txt
+1471-2121-3-11.txt
+1471-2121-3-22.txt
+1471-2121-3-8.txt
+1471-213X-2-8.txt
+1471-213X-3-3.txt
+1471-2156-3-4.txt
+1471-2180-3-5.txt
+1471-2202-4-5.txt
+1475-2867-3-12.txt
+1475-2867-3-2.txt
+1475-4924-1-10.txt
+1476-9433-1-2.txt
+ar331.txt
+```
+Again, this variation of grep is very useful when it comes to traversing large directories. This use of ```grep -l``` looks for all instances of cycloheximide and returns every file that contains it.
+
+
 
