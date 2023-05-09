@@ -304,12 +304,11 @@ $ grep -vi muscl 1471-2156-2-8.txt
         DAPC: Dystrophin-associated protein complex; DMN:
         Desmuslin, SNP: Single-nucleotide polymorphism; IF:
         Intermediate filament
-```
         
         This first use of ```grep -l``` I thought of was to be able to search through a certain file and find all the lines that didn't incluce any instance of the phrase "muscl". I chose that specifically so that I would be able to go through all the lines that didn't have any relation muscle and read through them.
        
       
-```
+
        $ grep -vi a 1471-2156-2-8.txt
 
 
