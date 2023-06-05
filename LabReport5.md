@@ -10,9 +10,9 @@ Hello student, it seems that you are running your compile code in the wrong file
 ![Image](LabReport5pic2.png)
 
 ### Setup info
-Need to be in the directory starter, not the overall PA8 directory.
-```javac MyBST.java```
-To fix the bug, student just needed to move into the correct directory.
+- Need to be in the directory starter, not the overall PA8 directory.
+- ```javac MyBST.java```
+- To fix the bug, student just needed to move into the correct directory.
 
 ### Reflection
 I think some of the biggest takeaways from the second-half of this quarter are the bash scripts and VIM editing. I personally never knew bash scripts existed, and from what I've seen so far these can be very useful to save some time. And while I don't have the best view and knowledge to understand why VIM could be super useful, I know how powerful it can be, it is just that right now I would not really have a purpose using it.
